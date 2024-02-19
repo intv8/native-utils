@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "variable",
+    "name": "FunctionUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/function_util.ts",
+      "line": 53,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseFunctionUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseFunctionUtil"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "VERSION",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/version.ts",
+      "line": 11,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "The current release version of the intv8 native-utils package."
+    },
+    "variableDef": {
+      "tsType": {
+        "repr": "0.0.1",
+        "kind": "literal",
+        "literal": {
+          "kind": "string",
+          "string": "0.0.1"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "MathUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/math_util.ts",
+      "line": 13,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseMathUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseMathUtil"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "NumberUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/number_util.ts",
+      "line": 25,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseNumberUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseNumberUtil"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "BoolUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/bool_util.ts",
+      "line": 53,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Utilities for native JavaScript boolean values."
+    },
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseBoolUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseBoolUtil"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "import",
+    "name": "IPrimitiveConvertible",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/bool_util.ts",
+      "line": 7,
+      "col": 0
+    },
+    "declarationKind": "private",
+    "jsDoc": {
+      "doc": "This file exports the BoolUtil class and related features.\n",
+      "tags": [
+        {
+          "kind": "unsupported",
+          "value": "@copyright 2022 integereleven. All rights reserved. MIT license."
+        }
+      ]
+    },
+    "importDef": {
+      "src": "file:///C:/repos/intv8/native-utils/deps.ts",
+      "imported": "IPrimitiveConvertible"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "RegExpUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/reg_exp_util.ts",
+      "line": 14,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseRegExpUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseRegExpUtil"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "class",
+    "name": "LangUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/lang_util.ts",
+      "line": 8,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Common JavaScript language utilities."
+    },
+    "classDef": {
+      "isAbstract": false,
+      "constructors": [
+        {
+          "jsDoc": {
+            "doc": "Instantiates a new LangUtil."
+          },
+          "accessibility": null,
+          "hasBody": true,
+          "name": "constructor",
+          "params": [],
+          "location": {
+            "filename": "file:///C:/repos/intv8/native-utils/src/lang_util.ts",
+            "line": 10,
+            "col": 2
+          }
+        }
+      ],
+      "properties": [
+        {
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "readonly": false,
+          "accessibility": "private",
+          "optional": false,
+          "isAbstract": false,
+          "isStatic": false,
+          "name": "index",
+          "location": {
+            "filename": "file:///C:/repos/intv8/native-utils/src/lang_util.ts",
+            "line": 12,
+            "col": 2
+          }
+        }
+      ],
+      "indexSignatures": [],
+      "methods": [
+        {
+          "accessibility": null,
+          "optional": false,
+          "isAbstract": false,
+          "isStatic": false,
+          "name": "uniqueId",
+          "kind": "method",
+          "functionDef": {
+            "params": [
+              {
+                "kind": "assign",
+                "left": {
+                  "kind": "identifier",
+                  "name": "prefix",
+                  "optional": false,
+                  "tsType": null
+                },
+                "right": "[UNSUPPORTED]",
+                "tsType": null
+              }
+            ],
+            "returnType": {
+              "repr": "string",
+              "kind": "keyword",
+              "keyword": "string"
+            },
+            "hasBody": true,
+            "isAsync": false,
+            "isGenerator": false,
+            "typeParams": []
+          },
+          "location": {
+            "filename": "file:///C:/repos/intv8/native-utils/src/lang_util.ts",
+            "line": 14,
+            "col": 2
+          }
+        }
+      ],
+      "extends": null,
+      "implements": [],
+      "typeParams": [],
+      "superTypeParams": []
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "StringUtil",
+    "location": {
+      "filename": "file:///C:/repos/intv8/native-utils/src/string_util.ts",
+      "line": 31,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "variableDef": {
+      "tsType": {
+        "repr": "BaseStringUtil",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": null,
+          "typeName": "BaseStringUtil"
+        }
+      },
+      "kind": "const"
+    }
+  }
+]

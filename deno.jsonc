@@ -1,4 +1,10 @@
 {
+  "name": "native-utils",
+  "description": "Utilities, extensions, and more for native JavaScript features.",
+  "version": "0.0.1",
+  "author": "integereleven",
+  "license": "MIT",
+  "status": "unstable",
   "lint": {
     "rules": {
       "tags": [
